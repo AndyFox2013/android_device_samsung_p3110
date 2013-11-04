@@ -21,5 +21,6 @@
 # are responsible for having their own logic, for fine-grained control.
 
 $(call inherit-product, device/samsung/n7100/full_n7100.mk)
+$(call inherit-product, vendor/kidream/configs/common.mk)
 
 PRODUCT_NAME := aosp_n7100
